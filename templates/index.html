@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Task List{% endblock %}
+
+{% block content %}
+<h1>Task List</h1>
+<div class="actions">
+    <a href="/add" class="btn btn-primary">Add New Task</a>
+    <a href="/export" class="btn btn-success">Export Tasks</a>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for task in tasks %}
+        <tr>
+            <td>{{ task.id }}</td>
+            <td>{{ task.title }}</td>
+            <td>{{ task.description }}</td>
+            <td>{{ task.category }}</td>
+            <td>{{ 'Completed' if task.completed else 'Pending' }}</td>
+            <td>
+                <a href="/complete/{{ task.id }}" class="btn btn-success">Toggle Status</a>
+                <a href="/delete/{{ task.id }}" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
+

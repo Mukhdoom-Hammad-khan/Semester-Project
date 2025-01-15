@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 { /*task list ke heading*/
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.navbar a {         /*jitne bhi a hai nav bar ke andar sab ko access kerga "a"*/
+    color: white;
+    text-decoration: none;  /*sare hyperlinks "a" per se line remove ho jaye ge*/
+    margin-left: 15px;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Forms */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #666;
+}
+
+.form-group{
+    width: 48.5rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #4caf50;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.btn-success {
+    background-color: #3498db;
+}
+
+.btn-success:hover {
+    background-color: #2980b9;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #444;
+    color: white;
+}
+
+table thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #888;
+}
