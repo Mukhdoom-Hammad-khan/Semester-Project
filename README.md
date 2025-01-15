@@ -60,11 +60,12 @@ python app.py
 Access the application by visiting http://127.0.0.1:5002 in your browser.
 
 ## Group Members & Contributions
-Ajwad Rehman: Gave the idea for the project, worked on the backend with Flask (Python), and worked on the database.
-Ahmed Raza: Worked on login functionality and index.html.
-Mukhdoom Hammad Khan: Worked on base.html and registration functionality.
-Muhammad Huzaifa Ali Sulehria: Worked on CSS and add_task.html.
-License
+Ajwad Rehman: Gave the idea for the project, worked on the backend with Flask (Python), and worked on the database.<br>
+Ahmed Raza: Worked on login functionality and index.html.<br>
+Mukhdoom Hammad Khan: Worked on base.html and registration functionality.<br>
+Muhammad Huzaifa Ali Sulehria: Worked on CSS and add_task.html.<br>
+
+## License
 This project is licensed under the MIT License.
 
 Make sure to replace the link to your GitHub repository and adjust any details if necessary.
