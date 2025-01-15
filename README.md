@@ -66,6 +66,6 @@ Mukhdoom Hammad Khan: Worked on base.html and registration functionality.<br>
 Muhammad Huzaifa Ali Sulehria: Worked on CSS and add_task.html.<br>
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the https://github.com/Mukhdoom-Hammad-khan/Semester-Project/new/master.
 
 Make sure to replace the link to your GitHub repository and adjust any details if necessary.
