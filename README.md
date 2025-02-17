@@ -59,6 +59,24 @@ Copy code
 python app.py
 Access the application by visiting http://127.0.0.1:5002 in your browser.
 
+## File Structure
+
+```graphql
+interactive-python-web-app/
+├── instance/
+│   └── tasks.db
+├── static/
+│   └── style.css
+├── templates/
+│   |── index.html
+│   |── add_task.html
+│   |── base.html
+│   |── register.html
+│   └── login.css
+├── app.py
+└── README.md
+```
+
 ## Group Members & Contributions
 Ajwad Rehman: Gave the idea for the project, worked on the backend with Flask (Python), and worked on the database.<br>
 Ahmed Raza: Worked on login functionality and index.html.<br>
