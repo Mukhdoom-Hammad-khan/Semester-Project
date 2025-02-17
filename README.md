@@ -29,21 +29,18 @@ tasks.db: SQLite database to store user data and tasks.<br>
 git clone https://github.com/Mukhdoom-Hammad-khan/Semester-Project.git
 ```
 <br>
-
 ### Navigate to the project directory:
 
 ```bash
 cd task-tracker
 ```
 <br>
-
 ### Create a virtual environment (optional but recommended):
 
 ```bash
 python -m venv venv
 ```
 <br>
-
 ### Activate the virtual environment:
 
 On Windows:
@@ -51,28 +48,24 @@ On Windows:
 ```bash
 venv\Scripts\activate
 ```
-
 On macOS/Linux:
 
 ```bash
 source venv/bin/activate
 ```
 <br>
-
 ### Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 <br>
-
 ### Run the application:
 
 ```bash
 python app.py
 ```
 <br>
-
 Access the application by visiting http://127.0.0.1:5002 in your browser.
 
 ## File Structure
