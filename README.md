@@ -23,39 +23,43 @@ tasks.db: SQLite database to store user data and tasks.<br>
 
 ## Setup Instructions
 
-Clone the repository:<br>
+### Clone the repository:
 
 ```bash
 git clone https://github.com/Mukhdoom-Hammad-khan/Semester-Project.git
 ```
-Navigate to the project directory:
+### Navigate to the project directory:
 
 ```bash
 cd task-tracker
 ```
-Create a virtual environment (optional but recommended):
+### Create a virtual environment (optional but recommended):
 
 ```bash
 python -m venv venv
 ```
-Activate the virtual environment:
+### Activate the virtual environment:
 
-On Windows:
+### On Windows:
+
 ```bash
 venv\Scripts\activate
 ```
 
-On macOS/Linux:
+### On macOS/Linux:
+
 ```bash
 source venv/bin/activate
 ```
 
-Install dependencies:
+### Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+### Run the application:
+
 ```bash
 python app.py
 ```
