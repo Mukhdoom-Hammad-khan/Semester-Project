@@ -22,41 +22,43 @@ static/: Contains the style.css file for custom styling.<br>
 tasks.db: SQLite database to store user data and tasks.<br>
 
 ## Setup Instructions
+
 Clone the repository:<br>
 
-bash
-Copy code
-git clone https://github.com/yourusername/task-tracker.git
+```bash
+git clone https://github.com/Mukhdoom-Hammad-khan/Semester-Project.git
+```
 Navigate to the project directory:
 
-bash
-Copy code
+```bash
 cd task-tracker
+```
 Create a virtual environment (optional but recommended):
 
-bash
-Copy code
+```bash
 python -m venv venv
+```
 Activate the virtual environment:
 
 On Windows:
-bash
-Copy code
+```bash
 venv\Scripts\activate
+```
+
 On macOS/Linux:
-bash
-Copy code
+```bash
 source venv/bin/activate
+```
+
 Install dependencies:
-
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Run the application:
+```
 
-bash
-Copy code
+Run the application:
+```bash
 python app.py
+```
 Access the application by visiting http://127.0.0.1:5002 in your browser.
 
 ## File Structure
